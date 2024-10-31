@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.model;
+package tw.leia.FinalTest.model;
 
 //import com.fasterxml.jackson.annotation.JsonBackReference;
 //
@@ -24,7 +24,7 @@ package tw.luna.FinalTest.model;
 //}
 
 import jakarta.persistence.*;
-import tw.luna.FinalTest.model.UserFavoritesRecipesId;
+import tw.leia.FinalTest.model.UserFavoritesRecipesId;
 
 @Entity
 @Table(name = "userfavoritesrecipes")

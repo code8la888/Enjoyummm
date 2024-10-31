@@ -1,13 +1,13 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import tw.luna.FinalTest.dto.UserFavProductCardDTO;
-import tw.luna.FinalTest.model.Product;
-import tw.luna.FinalTest.model.UserFavoritesProducts;
-import tw.luna.FinalTest.service.UserFavoritesProductsService;
+import tw.leia.FinalTest.dto.UserFavProductCardDTO;
+import tw.leia.FinalTest.model.Product;
+import tw.leia.FinalTest.model.UserFavoritesProducts;
+import tw.leia.FinalTest.service.UserFavoritesProductsService;
 
 import java.util.List;
 import java.util.Objects;

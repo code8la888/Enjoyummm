@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import tw.luna.FinalTest.model.Category;
-import tw.luna.FinalTest.service.CategoryService;
+import tw.leia.FinalTest.model.Category;
+import tw.leia.FinalTest.service.CategoryService;
 
 @RestController
 @RequestMapping("/category")

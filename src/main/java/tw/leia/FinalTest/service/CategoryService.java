@@ -1,10 +1,10 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import tw.luna.FinalTest.model.Category;
-import tw.luna.FinalTest.model.Product;
+import tw.leia.FinalTest.model.Category;
+import tw.leia.FinalTest.model.Product;
 
 public interface CategoryService {
 	List<Category> findAllCategory();

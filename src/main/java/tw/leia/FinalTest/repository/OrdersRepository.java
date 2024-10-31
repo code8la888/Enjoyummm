@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -12,10 +12,10 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import tw.luna.FinalTest.dto.OrdersDTO;
-import tw.luna.FinalTest.dto.orders.MerchantByUserDto;
-import tw.luna.FinalTest.model.OrderDetails;
-import tw.luna.FinalTest.model.Orders;
+import tw.leia.FinalTest.dto.OrdersDTO;
+import tw.leia.FinalTest.dto.orders.MerchantByUserDto;
+import tw.leia.FinalTest.model.OrderDetails;
+import tw.leia.FinalTest.model.Orders;
 
 @Repository
 public interface OrdersRepository extends JpaRepository<Orders, Integer> {
@@ -79,7 +79,7 @@ public interface OrdersRepository extends JpaRepository<Orders, Integer> {
 	List<Orders> findByUser_UserId(Long userId);
 	Optional<Orders> findByOrderIdAndUser_UserId(Integer orderId, Long userId);
     
-	@Query("SELECT new tw.luna.FinalTest.dto.OrdersDTO(o.orderId, o.orderDate, o.address, o.totalAmount, " +
+	@Query("SELECT new tw.leia.FinalTest.dto.OrdersDTO(o.orderId, o.orderDate, o.address, o.totalAmount, " +
 	           "CASE WHEN o.coupon IS NULL THEN null ELSE o.coupon.code END, " +
 	           "o.percentageDiscount, o.amountDiscount, o.finalAmount, o.status) " +
 	           "FROM Orders o WHERE o.user.userId = :userId")

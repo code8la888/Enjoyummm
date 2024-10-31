@@ -1,10 +1,10 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tw.luna.FinalTest.dto.ShowRecipeCardDTO;
-import tw.luna.FinalTest.model.Recipes;
-import tw.luna.FinalTest.repository.RecipesRepository;
+import tw.leia.FinalTest.dto.ShowRecipeCardDTO;
+import tw.leia.FinalTest.model.Recipes;
+import tw.leia.FinalTest.repository.RecipesRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

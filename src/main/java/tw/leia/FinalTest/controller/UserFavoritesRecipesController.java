@@ -1,14 +1,14 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import tw.luna.FinalTest.dto.FavoritesRecipeDTO;
-import tw.luna.FinalTest.model.UserAllInfo;
-import tw.luna.FinalTest.model.UserFavoritesRecipes;
-import tw.luna.FinalTest.service.UserFavoritesRecipesService;
+import tw.leia.FinalTest.dto.FavoritesRecipeDTO;
+import tw.leia.FinalTest.model.UserAllInfo;
+import tw.leia.FinalTest.model.UserFavoritesRecipes;
+import tw.leia.FinalTest.service.UserFavoritesRecipesService;
 
 import java.util.List;
 

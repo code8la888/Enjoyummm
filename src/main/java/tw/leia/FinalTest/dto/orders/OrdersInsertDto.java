@@ -1,7 +1,7 @@
-package tw.luna.FinalTest.dto.orders;
+package tw.leia.FinalTest.dto.orders;
 
 import jakarta.persistence.Column;
-import tw.luna.FinalTest.model.DiscountType;
+import tw.leia.FinalTest.model.DiscountType;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

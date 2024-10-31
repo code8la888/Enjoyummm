@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import java.io.IOException;
 import java.util.List;
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import software.amazon.awssdk.services.s3.model.S3Exception;
-import tw.luna.FinalTest.model.ProductImage;
-import tw.luna.FinalTest.repository.ProductImageRepository;
+import tw.leia.FinalTest.model.ProductImage;
+import tw.leia.FinalTest.repository.ProductImageRepository;
 
 @Service
 public class ProductImageServiceImpl implements ProductImageService {

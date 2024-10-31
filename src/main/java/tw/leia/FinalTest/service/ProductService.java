@@ -1,11 +1,11 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import tw.luna.FinalTest.dto.ProductCreateDTO;
-import tw.luna.FinalTest.dto.ProductUpdateDTO;
-import tw.luna.FinalTest.model.Product;
+import tw.leia.FinalTest.dto.ProductCreateDTO;
+import tw.leia.FinalTest.dto.ProductUpdateDTO;
+import tw.leia.FinalTest.model.Product;
 
 public interface ProductService {
 	//查詢所有產品

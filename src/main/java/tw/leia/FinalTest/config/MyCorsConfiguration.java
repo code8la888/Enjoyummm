@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.config;
+package tw.leia.FinalTest.config;
 import org.springframework.context.annotation.Configuration;
 
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

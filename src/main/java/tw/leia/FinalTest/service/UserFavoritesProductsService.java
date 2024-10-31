@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import java.util.List;
 import java.util.Objects;
@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import tw.luna.FinalTest.dto.UserFavProductCardDTO;
-import tw.luna.FinalTest.model.Product;
-import tw.luna.FinalTest.model.ProductImage;
-import tw.luna.FinalTest.model.UserFavoritesProducts;
-import tw.luna.FinalTest.repository.ProductRepository;
-import tw.luna.FinalTest.repository.UserFavoritesProductsRepository;
+import tw.leia.FinalTest.dto.UserFavProductCardDTO;
+import tw.leia.FinalTest.model.Product;
+import tw.leia.FinalTest.model.ProductImage;
+import tw.leia.FinalTest.model.UserFavoritesProducts;
+import tw.leia.FinalTest.repository.ProductRepository;
+import tw.leia.FinalTest.repository.UserFavoritesProductsRepository;
 
 @Service
 public class UserFavoritesProductsService {

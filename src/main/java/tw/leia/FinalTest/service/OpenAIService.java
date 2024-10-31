@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,8 +8,8 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import tw.luna.FinalTest.model.ChatRequest;
-import tw.luna.FinalTest.model.RemyChatRequest;
+import tw.leia.FinalTest.model.ChatRequest;
+import tw.leia.FinalTest.model.RemyChatRequest;
 
 @Service
 public class OpenAIService {

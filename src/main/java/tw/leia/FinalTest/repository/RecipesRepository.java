@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,8 +7,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import tw.luna.FinalTest.dto.ShowRecipeCardDTO;
-import tw.luna.FinalTest.model.Recipes;
+import tw.leia.FinalTest.dto.ShowRecipeCardDTO;
+import tw.leia.FinalTest.model.Recipes;
 
 @Repository
 public interface RecipesRepository extends JpaRepository<Recipes, Integer> {
@@ -17,7 +17,7 @@ public interface RecipesRepository extends JpaRepository<Recipes, Integer> {
 	Optional<Recipes> findByProductProductId(int productId);
 
 	//連表查詢
-	@Query("SELECT new tw.luna.FinalTest.dto.ShowRecipeCardDTO(" +
+	@Query("SELECT new tw.leia.FinalTest.dto.ShowRecipeCardDTO(" +
 			"r.recipeId, r.title, r.level, c.categoryName, " +
 			"r.isDel) " +
 			"FROM Recipes r " +

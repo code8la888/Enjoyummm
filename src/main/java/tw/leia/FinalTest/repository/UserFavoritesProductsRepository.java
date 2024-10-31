@@ -1,8 +1,8 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tw.luna.FinalTest.model.UserFavoritesProducts;
-import tw.luna.FinalTest.model.UserFavoritesProductsId;
+import tw.leia.FinalTest.model.UserFavoritesProducts;
+import tw.leia.FinalTest.model.UserFavoritesProductsId;
 
 import java.util.List;
 

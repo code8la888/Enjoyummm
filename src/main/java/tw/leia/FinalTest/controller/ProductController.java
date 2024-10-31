@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,11 +6,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tw.luna.FinalTest.dto.ProductCreateDTO;
-import tw.luna.FinalTest.dto.ProductUpdateDTO;
-import tw.luna.FinalTest.model.Product;
-import tw.luna.FinalTest.model.UserAllInfo;
-import tw.luna.FinalTest.service.ProductService;
+import tw.leia.FinalTest.dto.ProductCreateDTO;
+import tw.leia.FinalTest.dto.ProductUpdateDTO;
+import tw.leia.FinalTest.model.Product;
+import tw.leia.FinalTest.model.UserAllInfo;
+import tw.leia.FinalTest.service.ProductService;
 
 import java.util.ArrayList;
 import java.util.List;

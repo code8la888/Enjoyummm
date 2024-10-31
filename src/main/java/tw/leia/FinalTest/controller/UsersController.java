@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -18,15 +18,15 @@ import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.FirebaseToken;
 
 import jakarta.servlet.http.HttpSession;
-import tw.luna.FinalTest.BCrypt;
-import tw.luna.FinalTest.dto.UpdatePasswordDTO;
-import tw.luna.FinalTest.dto.UserDTO;
-import tw.luna.FinalTest.model.UserAllInfo;
-import tw.luna.FinalTest.model.Users;
-import tw.luna.FinalTest.model.UsersResponse;
-import tw.luna.FinalTest.model.UsersStatus;
-import tw.luna.FinalTest.service.EmailCheckService;
-import tw.luna.FinalTest.service.UsersServiceImpl;
+import tw.leia.FinalTest.BCrypt;
+import tw.leia.FinalTest.dto.UpdatePasswordDTO;
+import tw.leia.FinalTest.dto.UserDTO;
+import tw.leia.FinalTest.model.UserAllInfo;
+import tw.leia.FinalTest.model.Users;
+import tw.leia.FinalTest.model.UsersResponse;
+import tw.leia.FinalTest.model.UsersStatus;
+import tw.leia.FinalTest.service.EmailCheckService;
+import tw.leia.FinalTest.service.UsersServiceImpl;
 
 
 @RequestMapping("/users")

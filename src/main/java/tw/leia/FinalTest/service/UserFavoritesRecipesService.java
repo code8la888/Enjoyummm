@@ -1,17 +1,17 @@
-package tw.luna.FinalTest.service;
+package tw.leia.FinalTest.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import tw.luna.FinalTest.dto.FavoritesRecipeDTO;
-import tw.luna.FinalTest.model.Product;
-import tw.luna.FinalTest.model.ProductImage;
-import tw.luna.FinalTest.model.Recipes;
-import tw.luna.FinalTest.model.UserFavoritesRecipes;
-import tw.luna.FinalTest.repository.ProductRepository;
-import tw.luna.FinalTest.repository.RecipesRepository;
-import tw.luna.FinalTest.repository.UserFavoritesRecipesRepository;
+import tw.leia.FinalTest.dto.FavoritesRecipeDTO;
+import tw.leia.FinalTest.model.Product;
+import tw.leia.FinalTest.model.ProductImage;
+import tw.leia.FinalTest.model.Recipes;
+import tw.leia.FinalTest.model.UserFavoritesRecipes;
+import tw.leia.FinalTest.repository.ProductRepository;
+import tw.leia.FinalTest.repository.RecipesRepository;
+import tw.leia.FinalTest.repository.UserFavoritesRecipesRepository;
 
 import java.util.Base64;
 import java.util.List;

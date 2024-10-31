@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,9 +7,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import org.springframework.data.repository.query.Param;
-import tw.luna.FinalTest.model.Coupon;
-import tw.luna.FinalTest.model.UserCoupon;
-import tw.luna.FinalTest.model.UserCouponId;
+import tw.leia.FinalTest.model.Coupon;
+import tw.leia.FinalTest.model.UserCoupon;
+import tw.leia.FinalTest.model.UserCouponId;
 
 public interface UserCouponRepository extends JpaRepository<UserCoupon,UserCouponId>{
     List<UserCoupon> findCouponsByUserId(long userId); // 根據用戶ID查找所有優惠券

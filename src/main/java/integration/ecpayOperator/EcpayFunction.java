@@ -39,8 +39,8 @@ import org.w3c.dom.Document;
 import integration.errorMsg.ErrorMessage;
 import integration.exception.EcpayException;
 import org.w3c.dom.Document;
-import tw.luna.FinalTest.config.EcpayConfig;
-import tw.luna.FinalTest.config.EcpayConfig;
+import tw.leia.FinalTest.config.EcpayConfig;
+import tw.leia.FinalTest.config.EcpayConfig;
 
 
 /**

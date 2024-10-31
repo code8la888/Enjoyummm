@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.dto;
+package tw.leia.FinalTest.dto;
 
 public class ShowRecipeCardDTO {
     private Integer recipeId; // recipe

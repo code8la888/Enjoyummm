@@ -1,9 +1,9 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import tw.luna.FinalTest.model.Category;
-import tw.luna.FinalTest.model.Product;
+import tw.leia.FinalTest.model.Category;
+import tw.leia.FinalTest.model.Product;
 
 import java.util.List;
 

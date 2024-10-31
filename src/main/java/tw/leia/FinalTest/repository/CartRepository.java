@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import tw.luna.FinalTest.model.Cart;
+import tw.leia.FinalTest.model.Cart;
 
 @Repository
 public interface CartRepository extends JpaRepository<Cart, Long> {

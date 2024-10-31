@@ -1,11 +1,11 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import tw.luna.FinalTest.dto.ShowRecipeCardDTO;
-import tw.luna.FinalTest.service.RecipesService;
-import tw.luna.FinalTest.service.ShowRecipeCardService;
+import tw.leia.FinalTest.dto.ShowRecipeCardDTO;
+import tw.leia.FinalTest.service.RecipesService;
+import tw.leia.FinalTest.service.ShowRecipeCardService;
 
 import java.util.List;
 

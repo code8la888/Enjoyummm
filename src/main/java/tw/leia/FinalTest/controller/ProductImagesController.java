@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.controller;
+package tw.leia.FinalTest.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.http.MediaType;
 
-import tw.luna.FinalTest.model.Product;
-import tw.luna.FinalTest.model.ProductImage;
-import tw.luna.FinalTest.service.ProductImageService;
-import tw.luna.FinalTest.service.ProductService;
+import tw.leia.FinalTest.model.Product;
+import tw.leia.FinalTest.model.ProductImage;
+import tw.leia.FinalTest.service.ProductImageService;
+import tw.leia.FinalTest.service.ProductService;
 
 @RestController
 @RequestMapping("/productImages")

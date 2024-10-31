@@ -1,11 +1,11 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-import tw.luna.FinalTest.dto.orders.MerchantByUserDto;
-import tw.luna.FinalTest.model.Cart;
-import tw.luna.FinalTest.model.Payment;
+import tw.leia.FinalTest.dto.orders.MerchantByUserDto;
+import tw.leia.FinalTest.model.Cart;
+import tw.leia.FinalTest.model.Payment;
 
 import java.util.List;
 

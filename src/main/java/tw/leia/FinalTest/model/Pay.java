@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.model;
+package tw.leia.FinalTest.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 
 import java.util.List;
@@ -6,13 +6,13 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
+import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import tw.luna.FinalTest.model.Cart;
-import tw.luna.FinalTest.model.CartItems;
-import tw.luna.FinalTest.model.Product;
-
+import tw.leia.FinalTest.model.Cart;
+import tw.leia.FinalTest.model.CartItems;
+import tw.leia.FinalTest.model.Product;
+@Repository
 public interface CartItemsRepository extends JpaRepository<CartItems,Long> {
 
     //刪除購物車內某項商品      刪除商品 透過 商品裡的商品ID

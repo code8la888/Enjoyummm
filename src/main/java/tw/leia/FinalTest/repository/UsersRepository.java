@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
-import tw.luna.FinalTest.dto.UserDTO;
-import tw.luna.FinalTest.model.UserAllInfo;
-import tw.luna.FinalTest.model.Users;
+import tw.leia.FinalTest.dto.UserDTO;
+import tw.leia.FinalTest.model.UserAllInfo;
+import tw.leia.FinalTest.model.Users;
 
 
 public interface UsersRepository extends JpaRepository<Users, Long>{

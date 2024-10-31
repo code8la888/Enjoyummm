@@ -1,11 +1,11 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import tw.luna.FinalTest.model.Userinfo;
-import tw.luna.FinalTest.model.Users;
+import tw.leia.FinalTest.model.Userinfo;
+import tw.leia.FinalTest.model.Users;
 
 
 public interface UsersInfoReposity extends JpaRepository<Userinfo, Long>{

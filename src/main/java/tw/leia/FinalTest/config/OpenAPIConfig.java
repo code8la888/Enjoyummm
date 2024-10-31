@@ -1,4 +1,4 @@
-package tw.luna.FinalTest.config;
+package tw.leia.FinalTest.config;
 
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;

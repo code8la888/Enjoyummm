@@ -1,12 +1,12 @@
-package tw.luna.FinalTest.repository;
+package tw.leia.FinalTest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import tw.luna.FinalTest.model.UserFavoritesRecipes;
-import tw.luna.FinalTest.model.UserFavoritesRecipesId;
+import tw.leia.FinalTest.model.UserFavoritesRecipes;
+import tw.leia.FinalTest.model.UserFavoritesRecipesId;
 
 import java.util.List;
 

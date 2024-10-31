@@ -1,4 +1,4 @@
- package tw.luna.FinalTest.service;
+ package tw.leia.FinalTest.service;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
-import tw.luna.FinalTest.repository.UsersRepository;
+import tw.leia.FinalTest.repository.UsersRepository;
 
 @Service
 public class EmailCheckService {

@@ -1,4 +1,4 @@
-package tw.luna.FinalTest;
+package tw.leia.FinalTest;
 
 // Copyright (c) 2006 Damien Miller <djm@mindrot.org>
 //

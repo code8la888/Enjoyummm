@@ -1,8 +1,8 @@
-package tw.luna.FinalTest.dto;
+package tw.leia.FinalTest.dto;
 
 import java.util.List;
 
-import tw.luna.FinalTest.model.OrderDetails;
+import tw.leia.FinalTest.model.OrderDetails;
 
 public class OrderDetailsDTO {
 	private String productName;
